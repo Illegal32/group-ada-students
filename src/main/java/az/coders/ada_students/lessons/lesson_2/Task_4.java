@@ -18,6 +18,7 @@ public class Task_4 {
             byte Formula = input.nextByte();
             if (RandomNumber == Formula) {
                 System.out.println("Congratulations, Nadir!");
+                break;
             } else if (RandomNumber > Formula) {
                 System.out.println(" Your number is too small. Please, try again..");
             } else if (RandomNumber < Formula) {
