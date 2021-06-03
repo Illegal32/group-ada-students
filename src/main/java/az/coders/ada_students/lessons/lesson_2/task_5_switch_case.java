@@ -23,7 +23,6 @@ public class task_5_switch_case {
                     {
                         System.out.print("6 = Bien\n");
                     }
-                break;
             }
         }
     }
