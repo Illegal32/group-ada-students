@@ -13,17 +13,14 @@ public class task_5_switch_case {
         } else if (input >= 7 && input <= 8) {
             System.out.print("7-8 = Notable\n");
         } else if (input >= 9 && input <= 10) {
-            System.out.print("9-10 = Sobresaliente\n");
+            System.out.print("9-10 = Sobresaliente\n");}
             switch (input) {
                 case 5:
-                {
                     System.out.print("5 = Aprobado\n");
-                }
+                    break;
                 case 6:
-                    {
-                        System.out.print("6 = Bien\n");
-                    }
-            }
+                    System.out.print("6 = Bien\n");
+                    break;
         }
     }
 }
