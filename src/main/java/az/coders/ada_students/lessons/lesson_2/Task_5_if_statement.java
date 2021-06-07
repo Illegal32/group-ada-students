@@ -2,7 +2,7 @@ package az.coders.ada_students.lessons.lesson_2;
 
 import java.util.Scanner;
 
-public class task_5_if_statement {
+public class Task_5_if_statement {
     public static void main(String[] args) {
         Scanner enter = new Scanner(System.in);
         char alp = enter.next().charAt(0);

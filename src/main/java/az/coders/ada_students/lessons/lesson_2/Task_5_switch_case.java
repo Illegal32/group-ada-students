@@ -2,7 +2,7 @@ package az.coders.ada_students.lessons.lesson_2;
 
 import java.util.Scanner;
 
-public class task_5_switch_case {
+public class Task_5_switch_case {
     private static final Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
