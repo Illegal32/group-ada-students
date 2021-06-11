@@ -10,11 +10,11 @@ public class Task_6_Loop1 {
         int neg = 0;
         int zero = 0;
 
-        Scanner Giris = new Scanner(System.in);
+        Scanner giris = new Scanner(System.in);
         System.out.println("For Break, Write 'A'");
         System.out.println("Enter any number!");
-        while (Giris.hasNextInt()) {
-            int AnyNumber = Giris.nextInt();
+        while (giris.hasNextInt()) {
+            int AnyNumber = giris.nextInt();
             System.out.println("Enter new number");
             if (AnyNumber > 0) {
                 pos++;

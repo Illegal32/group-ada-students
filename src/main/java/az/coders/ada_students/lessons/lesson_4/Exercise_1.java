@@ -11,14 +11,15 @@ public class Exercise_1 {
         int input = enter.nextInt();
         int input1 = enter.nextInt();
         int input2 = enter.nextInt();
-        if (input >= input1 && input >= input2) {
-            System.out.println(input);
-        }
-        else if (input1 >= input && input1 >= input2) {
-            System.out.println(input1);
-        }
-        else if (input2 >= input && input2 >= input1) {
-            System.out.println(input2);
-        }
+        System.out.println(Math.max(Math.max(input,input1), input2));
+//        if (input >= input1 && input >= input2) {
+//            System.out.println(input);
+//        }
+//        else if (input1 >= input && input1 >= input2) {
+//            System.out.println(input1);
+//        }
+//        else {
+//            System.out.println(input2);
+//        }
     }
 }
