@@ -11,9 +11,9 @@ public class Exercise_6 {
 
         if(giris1 < giris2 && giris2 < giris3)
             System.out.println("increasing order");
-        if(giris1 > giris2 && giris2 > giris3)
+        else if(giris1 > giris2 && giris2 > giris3)
             System.out.println("decreasing order");
-        if(giris1 <= giris2 && giris2 >= giris3 || giris1 >= giris2 && giris2 <= giris3)
+        else if(giris1 <= giris2 && giris2 >= giris3 || giris1 >= giris2 && giris2 <= giris3)
             System.out.println("Neither increasing or decreasing order");
     }
 }

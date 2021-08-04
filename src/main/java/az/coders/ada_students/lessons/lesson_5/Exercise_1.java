@@ -5,7 +5,7 @@ public class Exercise_1 {
 
         for(int x = 1; x<=10; x++){
             for(int y = 1; y<=x;y++){
-                System.out.print(y);
+                System.out.printf("%s ", y);
             }
             System.out.println("");
         }

@@ -10,7 +10,7 @@ public class Exercise_3 {
         for(int x = 1; x <= giris; x++){
             for(int y = 1; y <= x ; y++){
                 System.out.print(p);
-                p++;
+                ++p;
             }
             System.out.println("");
         }

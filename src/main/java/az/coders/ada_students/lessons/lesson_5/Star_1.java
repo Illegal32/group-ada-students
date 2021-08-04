@@ -7,7 +7,7 @@ public class Star_1 {
         Scanner giris = new Scanner(System.in);
         int input = giris.nextInt();
         for(int i = 1; i <= input; i++){
-            for(int e = 1; e<= input; e++)
+            for(int e = 1; e<= i; e++)
 
                 System.out.print("* " );
             System.out.println();

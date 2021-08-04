@@ -20,11 +20,9 @@ public class Task_6_Loop1 {
                 pos++;
             } else if (AnyNumber < 0) {
                 neg++;
-            } else if (AnyNumber == 0) {
+            } else {
                 zero++;
             }
-                else if (AnyNumber == 'A')
-                    break;
             }
 
             System.out.println("Positive Numbers are Counted :" + pos);
