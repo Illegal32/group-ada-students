@@ -21,7 +21,7 @@ public class Task_4 {
                 break;
             } else if (RandomNumber > Formula) {
                 System.out.println(" Your number is too small. Please, try again..");
-            } else if (RandomNumber < Formula) {
+            } else {
                 System.out.println(" Your number is too big. Please, try again..");
             }
         }

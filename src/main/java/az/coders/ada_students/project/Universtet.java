@@ -1,6 +1,6 @@
 package az.coders.ada_students.project;
 
-public class Universtet extends TehsilObyekti {
+public class Universtet extends TehsilObyektiUzvleri {
 
     private String club;
     private String fail;
@@ -13,6 +13,10 @@ public class Universtet extends TehsilObyekti {
         this.fail = fail;
         this.payment = payment;
         this.scholarship = scholarship;
+    }
+
+    public Universtet() {
+
     }
 
     public String getClub() {

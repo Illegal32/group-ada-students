@@ -1,16 +1,18 @@
 package az.coders.ada_students.project;
 
-public class Muallim extends Universtet implements ExtraForTeacher {
+public class Saver extends TehsilObyektiUzvleri implements ExtraForSaver{
 
     private String salary;
+    private String bonus;
 
-    public Muallim(String name, String surname, int age, String holidayFestival, String holiday, String club, String fail, String payment, String scholarship, String salary) {
-        super(name, surname, age, holidayFestival, holiday, club, fail, payment, scholarship);
+    public Saver(String name, String surname, int age, String holidayFestival, String holiday, String salary, String bonus) {
+        super(name, surname, age, holidayFestival, holiday);
         this.salary = salary;
+        this.bonus = bonus;
     }
 
-    public Muallim() {
-        super();
+    public Saver() {
+
     }
 
     public String getSalary() {
@@ -21,19 +23,29 @@ public class Muallim extends Universtet implements ExtraForTeacher {
         this.salary = salary;
     }
 
-    public double salary(){
-        return (7 * dersSaati) + (3 * extraDers);
+    public String getBonus() {
+        return bonus;
+    }
+
+    public void setBonus(String bonus) {
+        this.bonus = bonus;
+    }
+
+    public double extraMaas(){
+        return ratio * piece;
+
     }
 
     @Override
     public String toString() {
-        return "Muallim{" +
+        return "Saver{" +
                 "name='" + getName() + '\'' +
                 ", surname='" + getSurname() + '\'' +
                 ", age=" + getAge() +
                 ", bayramSenlikleri='" + getHolidayFestival() + '\'' +
                 ", tetil='" + getHoliday() + '\'' +
                 "salary='" + salary + '\'' +
+                ", bonus='" + bonus + '\'' +
                 '}';
     }
 }
