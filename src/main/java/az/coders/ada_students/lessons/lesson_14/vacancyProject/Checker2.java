@@ -8,8 +8,7 @@ public class Checker2 {
     private double salary;
 
 
-    public Checker2() {
-    }
+    public Checker2() {}
 
     public Checker2(String company_name, String location, int age, String description, double salary) {
         this.company_name = company_name;
@@ -17,14 +16,6 @@ public class Checker2 {
         this.age = age;
         this.description = description;
         this.salary = salary;
-    }
-
-    public String getCompany_name() {
-        return company_name;
-    }
-
-    public void setCompany_name(String company_name) {
-        this.company_name = company_name;
     }
 
     public String getLocation() {

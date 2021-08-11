@@ -19,8 +19,10 @@ class Solution_new2 {
 
 public class DetermineColorOfChessboardSquare {
     public static void main(String[] args) {
+
         Solution_new2 solutionNew2 = new Solution_new2();
         String coordinates = "c6";
         System.out.println(solutionNew2.squareIsWhite(coordinates));
+
     }
 }
